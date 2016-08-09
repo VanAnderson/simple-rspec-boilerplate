@@ -1,8 +1,13 @@
 # simple-rspec-boilerplate
 
-This is a sample repo for playing with Ruby and RSpec without requiring much setup.
+This is a boilerplate repo for playing with Ruby and RSpec without requiring much setup.
+
+## Prerequisites
+
+1. Install Ruby
+2. `gem install bundler`
+3. `bundle install`
 
 ## Running Specs
 
-1. `bundle install` (first time only)
-2. `bundle exec rspec`
+`bundle exec rspec`
