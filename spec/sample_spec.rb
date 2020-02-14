@@ -1,13 +1,10 @@
-# Code
-panda = 'sad'
+require 'spec_helper'
+require 'lib/thing'
 
-# ------------------------------------------------------------------------------
-
-# Specs
-RSpec.describe 'the panda' do
-
-  it 'should be happy' do
-    expect(panda).to eq('happy')
+RSpec.describe Thing do
+  it 'should run without exception' do
+    expect{
+      Thing.new.start
+    }.to_not raise_error
   end
-
 end

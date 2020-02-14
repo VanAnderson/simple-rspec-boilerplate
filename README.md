@@ -11,3 +11,7 @@ This is a boilerplate repo for playing with Ruby and RSpec without requiring muc
 ## Running Specs
 
 `bundle exec rspec`
+
+## Run script
+
+`ruby bin/main.rb`
