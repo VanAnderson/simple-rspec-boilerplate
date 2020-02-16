@@ -4,8 +4,7 @@ class Thing
   end
 
   def start
-    puts 'start!'
     # binding.pry # use pry to debug!
-    'started'
+    puts 'start!!'
   end
 end
